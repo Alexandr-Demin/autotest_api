@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr,Field
+from pydantic import BaseModel, ConfigDict, EmailStr,Field
 
 
 
@@ -13,6 +13,7 @@ class UserSchema(BaseModel):
   middle_name: str=Field(alias="middleName")
 
 class CreateUserRequestSchema(BaseModel):
+  model_config=ConfigDict(populate_by_name=True)
   """
     Описание структуры запроса на создание пользователя.
   """
