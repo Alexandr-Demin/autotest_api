@@ -1,19 +1,13 @@
-from client.private_http_builder import AuthenticationUserSchema, get_private_http_client
+from client.private_http_builder import AuthenticationUserSchema
 from client.users.public_users_client import get_publick_users_client
 from client.users.users_schema import CreateUserRequestSchema
-from tools.fakers import get_random_email 
+from tools.fakers import fake
 from client.users.private_users_client import get_private_users_client
 
 
 publick_user_client = get_publick_users_client()
 
-create_user_request = CreateUserRequestSchema(
-    email=get_random_email(),
-    password="string",
-    last_name="string",
-    first_name="string",
-    middle_name="string"
-)
+create_user_request = CreateUserRequestSchema()
 
 create_user_response = publick_user_client.create_user(create_user_request)
 print("Create user:", create_user_response)
