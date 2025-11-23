@@ -4,7 +4,10 @@ from client.users.users_schema import CreateUserRequestSchema, CreateUserRespons
 from http import HTTPStatus
 from tools.assertions.base import assert_status_code
 from tools.assertions.users import assert_create_user_response
+import pytest
 
+@pytest.mark.users 
+@pytest.mark.regression
 def test_crate_user():
     
     publick_user_client = get_publick_users_client()
