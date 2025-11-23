@@ -1,4 +1,4 @@
-from assertions.schema import validate_json_schema
+from tools.assertions.schema import validate_json_schema
 from client.private_http_builder import AuthenticationUserSchema
 from client.users.private_users_client import get_private_users_client
 from client.users.public_users_client import get_publick_users_client

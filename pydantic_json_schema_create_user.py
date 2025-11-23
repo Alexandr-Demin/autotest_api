@@ -1,4 +1,4 @@
-from assertions.schema import validate_json_schema
+from tools.assertions.schema import validate_json_schema
 from client.users.public_users_client import get_publick_users_client
 from client.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
 from tools.fakers import get_random_email 
