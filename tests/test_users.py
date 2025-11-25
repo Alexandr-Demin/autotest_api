@@ -1,5 +1,5 @@
 from client.users.private_users_client import PrivateUsersClient
-from tests.conftest import UserFixture
+from fixtures.users import UserFixture
 from tools.assertions.schema import validate_json_schema
 from client.users.public_users_client import PublicUsersClient
 from client.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
