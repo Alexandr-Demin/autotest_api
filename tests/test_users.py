@@ -7,12 +7,14 @@ from http import HTTPStatus
 from tools.assertions.base import assert_status_code
 from tools.assertions.users import assert_create_user_response, assert_get_user_response
 import pytest
+from tools.fakers import fake
 
 @pytest.mark.users 
 @pytest.mark.regression
-def test_crate_user(publick_user_client: PublicUsersClient):
+@pytest.mark.parametrize("email", ["mail.ru", "gmail.com", "example.com"])
+def test_crate_user(email: str, publick_user_client: PublicUsersClient):
     
-    request = CreateUserRequestSchema()
+    request = CreateUserRequestSchema(email=fake.email(domain=email))
     response = publick_user_client.create_user_api(request)
     response_data = CreateUserResponseSchema.model_validate_json(response.text)
 
