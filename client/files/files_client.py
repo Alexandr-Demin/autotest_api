@@ -2,7 +2,7 @@ from typing import TypedDict
 from httpx import Response
 from client.api_client import APIClient
 from client.private_http_builder import AuthenticationUserSchema, get_private_http_client
-from client.files.files_schema import FileSchema, CreateFileRequestSchema, CreateFileResponseSchema
+from client.files.files_schema import  CreateFileRequestSchema, CreateFileResponseSchema
 
 class FilesClient(APIClient):
     """

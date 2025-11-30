@@ -45,7 +45,7 @@ def assert_lenght(actual: Sized, expected: Sized, name: str):
     :param expected: Ожидаемый объект.
     :raises AssertionError: Если длины не совпадают.
     """
-    assert actual == expected, (
+    assert len(actual) == len(expected), (
         f'Incorrect object lenght: "{name}". '
         f'Expected lenght: "{len(expected)}". '
         f'Actuak lenght: "{len(actual)}". '
