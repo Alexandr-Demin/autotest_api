@@ -33,7 +33,7 @@ class GetExercisesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка заданий.
     """
-    user_id: str=Field(alias="useId")
+    course_id: str=Field(alias="courseId")
 
 
 class GetExercisesResponseSchema(BaseModel):
@@ -78,15 +78,8 @@ class UpdateExerciseRequestSchema(BaseModel):
     estimated_time: str | None=Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
 class UpdateExerciseResponseSchema(BaseModel):
-
-    model_config = ConfigDict(populate_by_name=True)
-    
     """
     Описание структуры запроса на создание задания.
     """
-    title: str
-    max_score: int=Field(alias="maxScore")
-    min_score: int=Field(alias="minScore")
-    order_index: int=Field(alias="orderIndex")
-    description: str
-    estimated_time: str=Field(alias="estimatedTime")
+    exercise: ExerciseSchema
+
