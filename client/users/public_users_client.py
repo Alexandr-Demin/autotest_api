@@ -3,11 +3,11 @@ from httpx import Response
 from typing import TypedDict
 from client.public_http_builder import get_public_http_client
 from client.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
-
+import allure
 
 class PublicUsersClient(APIClient):
 
-
+    @allure.step("Create user")
     def create_user_api(
             self, 
             request: CreateUserRequestSchema

@@ -2,7 +2,9 @@ from client.errors_scheme import InternalErrorResponseSchema, ValidationErrorRes
 from client.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, FileSchema, GetFileResponseSchema
 from tools.assertions.base import assert_equal
 from tools.assertions.errors import assert_internal_error_response, assert_validation_error_response
+import allure
 
+@allure.step("Check create file response")
 def assert_create_file_response(
         request: CreateFileRequestSchema,
         response: CreateFileResponseSchema
@@ -13,6 +15,7 @@ def assert_create_file_response(
     assert_equal(response.file.directory, request.directory, "directory")
     assert_equal(str(response.file.url), expected_url, "url")
 
+@allure.step("Check file")
 def assert_create_file(actual: FileSchema, expected: FileSchema):
     
     assert_equal(actual.id, expected.id, "id")
@@ -20,9 +23,11 @@ def assert_create_file(actual: FileSchema, expected: FileSchema):
     assert_equal(actual.directory, expected.directory, "directory")
     assert_equal(actual.url, expected.url, "url")
 
+@allure.step("Check get file response")
 def assert_get_file_response(get_file_response: GetFileResponseSchema, create_file_response: CreateFileResponseSchema):
     assert_create_file(get_file_response.file, create_file_response.file)
 
+@allure.step("Check create file with empty filename response")
 def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseScheme):
     """
     Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой валидационной ошибке.
@@ -42,7 +47,8 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
         ]
     )
     assert_validation_error_response(actual, expected)
-    
+
+@allure.step("Check create file with empty directory response")    
 def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseScheme):
     """
     Проверяет, что ответ на создание файла с пустым значением директории соответствует ожидаемой валидационной ошибке.
@@ -73,6 +79,7 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     expected = InternalErrorResponseSchema(details="File not found")
     assert_internal_error_response(actual, expected)
 
+@allure.step("Check file not found response")
 def assert_get_file_incorrect_file_id_response(actual: ValidationErrorResponseScheme):
     expected = ValidationErrorResponseScheme(
         detail=[

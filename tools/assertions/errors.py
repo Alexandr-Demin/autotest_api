@@ -1,7 +1,8 @@
 from client.errors_scheme import InternalErrorResponseSchema, ValidationErrorResponseScheme, ValidationErrorScheme
 from tools.assertions.base import assert_equal, assert_lenght
+import allure
 
-
+@allure.step("Check validation error")
 def assert_validate_errors(
         actual: ValidationErrorScheme, 
         expected: ValidationErrorScheme
@@ -20,6 +21,7 @@ def assert_validate_errors(
     assert_equal(actual.message, expected.message, "type")
     assert_equal(actual.context, expected.context, "type")
 
+@allure.step("Check validation error response")
 def assert_validation_error_response(
         actual: ValidationErrorResponseScheme,
         expected: ValidationErrorResponseScheme
@@ -37,6 +39,7 @@ def assert_validation_error_response(
     for index, detail in enumerate(expected.details):
         assert_validate_errors(actual.details[index], detail)
 
+@allure.step("Check internal error response")
 def assert_internal_error_response(
         actual: InternalErrorResponseSchema, 
         expected: InternalErrorResponseSchema

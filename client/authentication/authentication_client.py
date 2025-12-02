@@ -2,12 +2,14 @@ from client.api_client import APIClient
 from httpx import Response
 from client.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema, RefreshRequestSchema
 from client.public_http_builder import get_public_http_client
+import allure
 
 
 
 
 class AuthenticationClient(APIClient): 
     
+    @allure.step("Authentication user")
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
         Метод выполняет аутентификацию пользователя.
@@ -20,7 +22,7 @@ class AuthenticationClient(APIClient):
             json=request.model_dump(by_alias=True)
             )
     
-
+    @allure.step("Refrech token")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         Метод обновляет токен авторизации.
