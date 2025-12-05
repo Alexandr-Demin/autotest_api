@@ -3,12 +3,17 @@ from tools.assertions.base import assert_equal, assert_lenght
 from tools.assertions.files import assert_create_file
 from tools.assertions.users import assert_user
 import allure
+from tools.logger import get_logger
+
+logger = get_logger("COURSE_ASSERTIONS")
+
 
 @allure.step("Check update course response")
 def assert_update_course_response(
         request: UpdateBodyRequestSchema, 
         response: UpdateCourseResponseSchema     
 ):
+    logger.info("Check update course response")
     """
     Проверяет, что ответ на обновление курса соответствует данным из запроса.
 
@@ -24,6 +29,7 @@ def assert_update_course_response(
 
 @allure.step("Check course")
 def assert_course(actual: CourseSchema, expected: CourseSchema):
+    logger.info("Check course")
     """
     Проверяет, что фактические данные курса соответствуют ожидаемым.
 
@@ -48,6 +54,7 @@ def assert_get_courses_response(
         get_courses_response: GetCoursesResponseSchema,
         create_course_responses: list[CourseResponseSchema]
 ):
+    logger.info("Check get courses response")
     """
     Проверяет, что ответ на получение списка курсов соответствует ответам на их создание.
 
@@ -61,6 +68,7 @@ def assert_get_courses_response(
 
 @allure.step("Check create course response")
 def assert_create_course_response(request: CreateBodyRequestSchema, response: CourseResponseSchema):
+    logger.info("Check create course response")
     """
     Проверяет, что ответ на создание курса соответствует запросу.
 
