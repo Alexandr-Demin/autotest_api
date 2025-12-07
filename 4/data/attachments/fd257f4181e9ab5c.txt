@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQ0OjQ3LjUxNzI3NiIsInVzZXJfaWQiOiJkZDVjZDI0YS0xNDNmLTQ2ZmYtYWYyYi00OWIyZjZhNTdkYmUifQ.Czur8W3H5Ix2Q9vsesLcGQ6K7_8k7mt2WHyQlaAfBK0' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mouth baby clear provide night.","maxScore":92,"minScore":7,"description":"Plan our night hear without. Remain agreement what.\nMarriage eight time. Friend husband standard understand economy read.","estimatedTime":"2 weeks","previewFileId":"2150a47c-cdb8-4b84-be17-3a411a0d25dd","createdByUserId":"dd5cd24a-143f-46ff-af2b-49b2f6a57dbe"}'

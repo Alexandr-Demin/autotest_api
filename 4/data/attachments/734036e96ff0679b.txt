@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/70dd12fb-6f86-4e32-b438-c4e676b565c5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQ0OjQ5Ljc3ODg4MCIsInVzZXJfaWQiOiI5ZDM1OTk2Zi1mZGUwLTQ5N2QtYTQwYi1jODljZjRlMzVkNzAifQ.-kNqfNGBl4zKrFqEAdbbnBx78nbfFVHhDWQpUzb2cWQ' \
+  -H 'content-length: 202' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group control else.","maxScore":97,"minScore":13,"description":"We of machine land. None under force tough require education ever work. Data physical explain trial.","estimatedTime":"5 weeks"}'

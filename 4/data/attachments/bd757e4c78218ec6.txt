@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQ0OjUzLjg4MDY2NSIsInVzZXJfaWQiOiJiOTUzN2I2Mi04ZjUxLTQ5OGEtYTA2Yy1mMTJjYjhkZTA1NjcifQ.N0q3DY3VmNeTZcePJaVFCWNUW6x-HWvKNTCuNzSlbOw' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability effect body certainly majority threat.","maxScore":87,"minScore":18,"description":"Recognize want cold leader. Both couple house gas program themselves.\nOpen now usually learn smile foreign person. Effort record week wear argue.","estimatedTime":"4 weeks","previewFileId":"4c8071b9-a28a-4f27-8773-3a6022be3d4e","createdByUserId":"b9537b62-8f51-498a-a06c-f12cb8de0567"}'

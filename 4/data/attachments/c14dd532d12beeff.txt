@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQ0OjQ4LjkyNjQ1MyIsInVzZXJfaWQiOiJkZGI3YTIwYS0zZjI2LTRiNTktYTliOS04YjY3YzUzYzM3MWMifQ.TS4XRGY4g5JlH9Exska8PhKQTHbowhht8gA0DyEh-Kc' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy kind local indeed Mr several.","maxScore":63,"minScore":8,"description":"Cause institution join technology science lose somebody. Life job energy seek point instead fine.\nThree down wish through court certain if actually. Top edge face point goal there under.","estimatedTime":"10 weeks","previewFileId":"f554fab2-0f58-4d73-9f50-5f39cb8be379","createdByUserId":"ddb7a20a-3f26-4b59-a9b9-8b67c53c371c"}'

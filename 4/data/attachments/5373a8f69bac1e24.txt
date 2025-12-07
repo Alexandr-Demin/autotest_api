@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQ0OjUzLjMyMjIwMyIsInVzZXJfaWQiOiI1OGY2OTE2Ni04MTcxLTQ4MDUtOGMyNS04YWVkODI2YzYzNjEifQ.pIMMoQlpzWVuOf2UkRVONg6pp7a4XXJyygm9sjQyN9k' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Experience life eight long yet buy card.","maxScore":68,"minScore":30,"description":"South writer son open. Still art fight need imagine sure way. Wear involve bag nature work.","estimatedTime":"8 weeks","previewFileId":"5003ad1c-e2b7-4431-806e-728a33ce67fc","createdByUserId":"58f69166-8171-4805-8c25-8aed826c6361"}'

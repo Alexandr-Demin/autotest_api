@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQ0OjQ5LjIxMTc0MiIsInVzZXJfaWQiOiJjYmI2MjA1NS02MDQwLTQyNGMtYWEwMC0yNzJmOGRlOTIxNWMifQ.xIyY2e6MZlMY6w8IFd-kuDYSzLZaGQRehmztBZM-yYw' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without anything near professor middle western.","courseId":"cfe3c21a-b76f-481e-90ec-495732bb1c45","maxScore":96,"minScore":28,"orderIndex":4,"description":"Government year wish this record sister identify. Outside test so guy. Election reality vote dinner rule current production.\nReal yard school dog. Claim base develop agent three Republican.","estimatedTime":"10 weeks"}'
