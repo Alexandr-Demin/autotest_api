@@ -17,7 +17,7 @@ jobs:
           - name: Set up Python
             uses: actions/setup-python@v5
             with:
-              python-version: '3.3.13.4'
+              python-version: '3.13.4'
           - name: Clone test server repository
             run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
           - name: Install test server dependencies
