@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQyOjA0LjkwMjcxMSIsInVzZXJfaWQiOiI0NmE3Yjk2Zi01ZjA2LTQ4ZTItYTUzNS0xYmI1YjQ1ODllMDQifQ.DUZSUfIuPQfuDppK_oAd9WImsyxFJmLNw8OkysfWxCc' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article physical peace accept minute my budget.","maxScore":52,"minScore":3,"description":"Foot accept serve image wife control. Reduce suggest they money day quite water. Agree each generation sure price meeting someone.\nBuild ago if what just expect his. Than might attorney.","estimatedTime":"1 weeks","previewFileId":"37a9e1cf-4f14-467e-b539-bf2fe95efa2e","createdByUserId":"46a7b96f-5f06-48e2-a535-1bb5b4589e04"}'

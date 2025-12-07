@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQyOjA1LjE3NDIxNSIsInVzZXJfaWQiOiIyZjg3MDIxNS1iZTMzLTQ1NDMtYjdmMC1lYWFlYmVjYTJmOTQifQ.IqndgGHHPqo3kjVUqDo06j4AzV8RF-X8MGyJURRNJcw' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"People only ok cell.","maxScore":68,"minScore":1,"description":"Employee least purpose site hard increase much floor. Prove positive assume structure everyone throw white anything.\nMedia southern another experience bill down. Hand wind campaign.","estimatedTime":"5 weeks","previewFileId":"f9ec2cba-bdee-4b7b-b1f3-daf2dac931f3","createdByUserId":"2f870215-be33-4543-b7f0-eaaebeca2f94"}'

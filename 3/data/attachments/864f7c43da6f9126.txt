@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQyOjAyLjg1MTM2NCIsInVzZXJfaWQiOiIwOTUwYjQzOC1hYjFiLTRjNmItYTI1NS1jY2IzMGU3OGJhOWUifQ.w9Cr5QsmUEl533zNBB2iWOVgqksRM0GmwpIYa8XlIY8' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sit avoid our prepare news.","courseId":"ca56647c-ee21-4bd7-ae02-73e22c6fd649","maxScore":65,"minScore":2,"orderIndex":6,"description":"Bar if mouth argue. Production carry man group available first smile deep. Rise include condition man.","estimatedTime":"4 weeks"}'

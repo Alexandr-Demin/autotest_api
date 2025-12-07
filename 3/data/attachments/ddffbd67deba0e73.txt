@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/64b467c5-6ae8-4832-ab1c-4488e5ef320f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQyOjAzLjQxODMwNSIsInVzZXJfaWQiOiJlN2EzZmZhMy1hOGIwLTRjN2QtOWUwYy00MjMzNjBjZTg1ZmYifQ.wn5l-JJcirh5eP1aox5fYmjSo3frI1nw_LeDQuQNgvY' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank provide better around speech.","maxScore":96,"minScore":20,"description":"Thank once if. Per standard impact rich. Most water end hold job. Same present rule miss population.\nTry wait a yes. That end dark life pattern money hotel. Usually film season similar well thus.","estimatedTime":"9 weeks"}'

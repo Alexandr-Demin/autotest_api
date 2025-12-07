@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQyOjAzLjQxODMwNSIsInVzZXJfaWQiOiJlN2EzZmZhMy1hOGIwLTRjN2QtOWUwYy00MjMzNjBjZTg1ZmYifQ.wn5l-JJcirh5eP1aox5fYmjSo3frI1nw_LeDQuQNgvY' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Director left determine choose need cup.","maxScore":97,"minScore":29,"description":"Government feeling its student recognize establish really build. Eye develop most.\nSong security second while course foreign though subject. Population language college officer film may poor factor.","estimatedTime":"7 weeks","previewFileId":"b31e6c09-9700-4cb0-97fe-6a9597ec1f4e","createdByUserId":"e7a3ffa3-a8b0-4c7d-9e0c-423360ce85ff"}'

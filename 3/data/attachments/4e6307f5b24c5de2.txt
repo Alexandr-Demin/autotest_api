@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make DELETE request to http://localhost:8000/api/v1/exercises/0b4d2a62-3605-4037-93af-cac5af7e73dc
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises/0b4d2a62-3605-4037-93af-cac5af7e73dc
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/0b4d2a62-3605-4037-93af-cac5af7e73dc
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 404 Not Found response to http://localhost:8000/api/v1/exercises/0b4d2a62-3605-4037-93af-cac5af7e73dc
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 404
+INFO     EXECISES_ASSERTIONS:exercises.py:72 Check exercise not found response
+INFO     ERRORS_ASEERTIONS:errors.py:52 Check internal error response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'details' equals to Exercise not found

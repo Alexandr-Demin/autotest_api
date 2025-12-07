@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDA3OjQyOjA3LjUwODEyNyIsInVzZXJfaWQiOiI2NTY3NWE1OC1lNTcwLTRkMTMtYTk1NC0xZjhjOGNlZmJlNjQifQ.Wj-9FWlH1wuLZTy_ZjCdA1n_QX0pSBjF26IUvwsDauM' \
+  -H 'content-length: 449' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behavior possible word win within lay beautiful want.","maxScore":81,"minScore":24,"description":"Around arrive skill little policy knowledge fine. Effort wide real second. Girl safe ready design much. Popular imagine any environmental spring itself.\nOk future draw everybody mission force answer.","estimatedTime":"10 weeks","previewFileId":"8415330b-658b-4659-b72a-fcb187b18803","createdByUserId":"65675a58-e570-4d13-a954-1f8c8cefbe64"}'
