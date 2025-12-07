@@ -28,7 +28,7 @@ def log_request_event_hook(request: Request):
 
 def log_response_event_hook(response: Response):
     """
-    Логирует информацию о полученном HTTP-ответе.
+    Логирует информацию о полученном HTTP-ответе
 
     :param response: Объект ответа HTTPX.
     """
