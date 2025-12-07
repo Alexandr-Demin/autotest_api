@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI0OjUyLjg1OTU0MSIsInVzZXJfaWQiOiIyZmZhZjc0My0zY2YyLTRkNmYtOWViYS0xYjJlZDQwMzRjMDMifQ.V6nj9s2qavRpFmS6X91xhUWRpQFh6gasC1NP_qNe2ho' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Management exist PM fund tonight.","maxScore":99,"minScore":9,"description":"Administration this adult air several right. Range man even husband last. Today glass sport five individual discover.","estimatedTime":"10 weeks","previewFileId":"c05a417d-3155-456a-8887-2ae56d666d10","createdByUserId":"2ffaf743-3cf2-4d6f-9eba-1b2ed4034c03"}'

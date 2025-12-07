@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI0OjUzLjQ2NjU4MyIsInVzZXJfaWQiOiIyZWQ4OTVjZi1lYzg1LTRmMWQtYWMxZi05NWRmZThjOTExNDAifQ.NM8D7LfHI7clJgA59svHHteAsp_J2EkKe9fapi4mmOg' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spring morning admit job.","maxScore":75,"minScore":9,"description":"Set nice today next few between member. Teacher yet color. Life if even answer fear debate staff.\nPartner bring goal nature sound. Effort system between share activity edge.","estimatedTime":"4 weeks","previewFileId":"effb6ee3-9301-4966-8a4c-ebb205d91e58","createdByUserId":"2ed895cf-ec85-4f1d-ac1f-95dfe8c91140"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI0OjU1LjE4MjQ3NiIsInVzZXJfaWQiOiJkMjg0YzFmOS03MTM0LTRiOTctYmQ2Ny1hZmUwNWNjOWFiMzAifQ.093zZqkM7YJnOYMUIAfj1Jv8ka5qpUaKff_1tBjWyT0' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person whole treatment beyond fly mother role.","maxScore":90,"minScore":19,"description":"Contain central coach realize speak seat. Morning seat them summer.\nCountry last establish degree seek garden. Alone decade able condition relationship their international.","estimatedTime":"10 weeks","previewFileId":"19ca0165-ddee-4fb5-82e5-72e94ead4124","createdByUserId":"d284c1f9-7134-4b97-bd67-afe05cc9ab30"}'

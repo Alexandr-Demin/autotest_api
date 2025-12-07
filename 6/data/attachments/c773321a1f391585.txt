@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/e21230c4-6020-473c-a990-364958b6ef87
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses/e21230c4-6020-473c-a990-364958b6ef87
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:16 Check update course response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to He sit environment age home history leg arm.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 66
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 21
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Expect probably strong middle talk most. Away artist consumer city.
+Control film wind administration end mouth. History my war them send add. Article still skill firm wife special.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 8 weeks
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema

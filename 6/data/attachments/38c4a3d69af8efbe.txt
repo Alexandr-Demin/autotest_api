@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI0OjU0LjYzMDg0OSIsInVzZXJfaWQiOiJkMzU4YjYzOC00NGY1LTQ1NjMtOGU1Yi1iNzEzNjg5NGY3ZTgifQ.lZ1nlHteroIrPmgctHMVOULAD3ebApkiaGgQaWRIYhk' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Music image product.","maxScore":60,"minScore":11,"description":"Mission necessary piece design body. Term just add third.\nReality friend land worker price. House much kitchen chance perform. We yes bad cup.","estimatedTime":"1 weeks","previewFileId":"6d8ab747-ec86-4b3e-9a31-a43c19f4b014","createdByUserId":"d358b638-44f5-4563-8e5b-b7136894f7e8"}'

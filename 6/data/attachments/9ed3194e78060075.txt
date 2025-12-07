@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI0OjU2LjkzNzk4OCIsInVzZXJfaWQiOiI1ZmU4Zjg0Yi03NGMwLTRjMmEtYTNjOC05N2FlM2QzZTg4N2UifQ.1zZ0ErXadaIFGPi9q6YICMaXGnmW3g1UDnhUKjQxvVg' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"School name computer turn direction cell table enter.","maxScore":67,"minScore":9,"description":"Glass write design tree stage. Task education smile account blood west break discover. Television degree admit go school.","estimatedTime":"6 weeks","previewFileId":"0ddb3458-d6ca-4cc7-a6a7-a6eef77526fb","createdByUserId":"5fe8f84b-74c0-4c2a-a3c8-97ae3d3e887e"}'

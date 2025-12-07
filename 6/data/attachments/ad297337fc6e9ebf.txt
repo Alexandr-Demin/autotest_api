@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI0OjU1LjE4MjQ3NiIsInVzZXJfaWQiOiJkMjg0YzFmOS03MTM0LTRiOTctYmQ2Ny1hZmUwNWNjOWFiMzAifQ.093zZqkM7YJnOYMUIAfj1Jv8ka5qpUaKff_1tBjWyT0' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career democratic drop consider responsibility focus remember building.","courseId":"133f46f4-2d40-4149-82a5-71c3849b6ca7","maxScore":99,"minScore":3,"orderIndex":6,"description":"Where well student growth lose. Together out box state reality different. Part why movement tough.","estimatedTime":"5 weeks"}'

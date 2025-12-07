@@ -1,0 +1,35 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=2ed895cf-ec85-4f1d-ac1f-95dfe8c91140
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses?userId=2ed895cf-ec85-4f1d-ac1f-95dfe8c91140
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:57 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:58 Check that lenght og "courses" equal to1
+INFO     COURSE_ASSERTIONS:course.py:32 Check course
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to 094899d5-9160-49f9-ac09-410d03d4afb9
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Spring morning admit job.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 75
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 9
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Set nice today next few between member. Teacher yet color. Life if even answer fear debate staff.
+Partner bring goal nature sound. Effort system between share activity edge.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'preview_file' equals to id='effb6ee3-9301-4966-8a4c-ebb205d91e58' filename='e39a1268-d1a6-434a-8c1e-774ccb0f3ced.png' directory='test' url=HttpUrl('http://localhost:8000/static/test/e39a1268-d1a6-434a-8c1e-774ccb0f3ced.png')
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'created_by_user' equals to id='2ed895cf-ec85-4f1d-ac1f-95dfe8c91140' email='mary10@example.net' last_name='Goodwin' first_name='Robert' middle_name='Erin'
+INFO     FILES_ASSERTIONS:files.py:25 Check file
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to effb6ee3-9301-4966-8a4c-ebb205d91e58
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'filename' equals to e39a1268-d1a6-434a-8c1e-774ccb0f3ced.png
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'directory' equals to test
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'url' equals to http://localhost:8000/static/test/e39a1268-d1a6-434a-8c1e-774ccb0f3ced.png
+INFO     USER_ASSERTIONS:users.py:25 Check user
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to 2ed895cf-ec85-4f1d-ac1f-95dfe8c91140
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'email' equals to mary10@example.net
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'last_name' equals to Goodwin
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'first_name' equals to Robert
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'middle_name' equals to Erin
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
