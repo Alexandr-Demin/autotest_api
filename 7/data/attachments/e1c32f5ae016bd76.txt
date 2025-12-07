@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjEzLjA5NzMyOCIsInVzZXJfaWQiOiJmNTFlMDJlNS1kZDllLTQ5ZTQtOWMyZC01NDI5MDQyMTQ5MTIifQ.mlMcVdQEqDHEPlWcQV2bqZHDYwM-vhs-8_y2cwC7ZFY' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Collection someone contain cup least box.","maxScore":87,"minScore":7,"description":"Ok financial media western dog somebody. Over participant boy anyone heart.\nCertainly rich blood push range reflect. Human present boy card. As none cause democratic.","estimatedTime":"2 weeks","previewFileId":"4623109d-8370-4440-bfbf-3d5de4c7d655","createdByUserId":"f51e02e5-dd9e-49e4-9c2d-542904214912"}'

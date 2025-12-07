@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/81ef0e8b-adc4-4135-8686-772849540f80
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises/81ef0e8b-adc4-4135-8686-772849540f80
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
+INFO     EXECISES_ASSERTIONS:exercises.py:62 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Central exist civil thank discuss push field.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 69
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 18
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 9
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Expert that field five look first. Right start special continue.
+Decide if child every.
+Pressure cup but green partner. Add wear common hospital. Provide meeting public drive yes.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 2 weeks

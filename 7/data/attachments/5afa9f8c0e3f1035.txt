@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjE2LjIxMDg1NiIsInVzZXJfaWQiOiI2OTcxZjg1MS05YTA4LTRiNjktOTIwMy02NjFhOGQ1MDhkYjIifQ.9RF2XCSIgzjpuAymhnfWX2GHUNsrWzXWjCu10bitEgY' \
+  -H 'content-length: 446' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become live feeling sort center however finally heavy.","maxScore":59,"minScore":14,"description":"Capital sure single question day today. Open heart past middle research.\nRich suffer very than include. Weight teach loss unit level dark my.\nDrug current well. In response company wind once not.","estimatedTime":"6 weeks","previewFileId":"81206c66-93fe-42b3-88eb-562800c6feee","createdByUserId":"6971f851-9a08-4b69-9203-661a8d508db2"}'

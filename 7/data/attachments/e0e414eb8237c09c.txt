@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjE2Ljc2NjU3MyIsInVzZXJfaWQiOiI5NGVkOWVmNS03M2ZhLTQ4OGEtOGRjNS1iMTgzMmZkY2UxZTYifQ.psT_FRP4D_u8e1FoLEcZZSNJ8rxwRmIkFMu3sHxohrU' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Month test future machine moment visit.","maxScore":92,"minScore":14,"description":"Heavy rate water million. Begin soon all.\nTend successful although teacher respond much amount artist. Field clearly Mr save far.","estimatedTime":"4 weeks","previewFileId":"0e92c6ec-4a5e-479d-a22b-3103659fb6f7","createdByUserId":"94ed9ef5-73fa-488a-8dc5-b1832fdce1e6"}'

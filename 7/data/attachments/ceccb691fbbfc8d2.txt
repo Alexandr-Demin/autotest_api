@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjEzLjk1MzM4NyIsInVzZXJfaWQiOiI5YjcwNTQzMS03ZWJmLTQ5ODgtOTQ3NS02MDcyY2NhMjNhOTgifQ.1v60LPNmlFREOKqq-ftuilAtWVKG71uUznb8NUwT-C0' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point edge magazine.","maxScore":90,"minScore":18,"description":"Particularly keep among type field front finally. Fill occur under some.\nCall if reason adult. Enter from those idea around purpose full. Light book move personal chance.","estimatedTime":"9 weeks","previewFileId":"33cd086e-2e5f-4f3c-8c02-c7bbace83b33","createdByUserId":"9b705431-7ebf-4988-9475-6072cca23a98"}'

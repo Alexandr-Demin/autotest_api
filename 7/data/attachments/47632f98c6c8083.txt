@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjE2LjIxMDg1NiIsInVzZXJfaWQiOiI2OTcxZjg1MS05YTA4LTRiNjktOTIwMy02NjFhOGQ1MDhkYjIifQ.9RF2XCSIgzjpuAymhnfWX2GHUNsrWzXWjCu10bitEgY' \
+  -H 'content-length: 270' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare idea body government.","courseId":"80c39543-d060-4628-aec1-a9949b4a928a","maxScore":79,"minScore":25,"orderIndex":4,"description":"Add hot produce as.\nEffort visit ready sort. Could cold study provide although activity kid.","estimatedTime":"4 weeks"}'

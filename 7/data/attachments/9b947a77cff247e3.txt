@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/f876b73f-b3b2-4077-ada5-e67cf2b49c32
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises/f876b73f-b3b2-4077-ada5-e67cf2b49c32
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
+INFO     EXECISES_ASSERTIONS:exercises.py:47 Check get exercise response
+INFO     EXECISES_ASSERTIONS:exercises.py:32 Check exercise
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to f876b73f-b3b2-4077-ada5-e67cf2b49c32
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Prepare idea body government.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 79
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 25
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 4
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Add hot produce as.
+Effort visit ready sort. Could cold study provide although activity kid.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to 80c39543-d060-4628-aec1-a9949b4a928a

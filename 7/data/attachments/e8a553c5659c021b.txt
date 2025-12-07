@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjE1LjA3NDkwNCIsInVzZXJfaWQiOiI4ODcyMzdhMC1iNGE5LTRhNjktYjlmYy00ODg3NDZlNTlkM2UifQ.9KBeLnWGz_59j-0HaVvfR911ZYwutoTJGnauKOa81Eo' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought office father sea close Mrs.","courseId":"3c8159ce-8da5-467f-97cc-dcb6a20d4daa","maxScore":91,"minScore":6,"orderIndex":4,"description":"Bring college hotel wife series amount discussion. Safe crime firm civil night catch often. Among than wife them happen.","estimatedTime":"7 weeks"}'

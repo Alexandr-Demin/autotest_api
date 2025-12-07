@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=d3aa3ec3-b192-48d5-9d53-d41dcf9675fe
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises?courseId=d3aa3ec3-b192-48d5-9d53-d41dcf9675fe
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     EXECISES_ASSERTIONS:exercises.py:82 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:58 Check that lenght og "courses" equal to1
+INFO     EXECISES_ASSERTIONS:exercises.py:32 Check exercise
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to ca17b703-f2f0-4473-99fa-9b16da1b3dce
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Mouth specific trade part.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 67
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 24
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 7
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Election language center meet commercial go tell. Employee wide mean across deep.
+Section guess black. Candidate foreign yet first worry.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to d3aa3ec3-b192-48d5-9d53-d41dcf9675fe
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema

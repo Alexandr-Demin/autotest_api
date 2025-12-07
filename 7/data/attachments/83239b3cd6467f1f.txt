@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2e4a5de3-cd4e-40c0-841e-9a09d9aec543' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjEzLjA5NzMyOCIsInVzZXJfaWQiOiJmNTFlMDJlNS1kZDllLTQ5ZTQtOWMyZC01NDI5MDQyMTQ5MTIifQ.mlMcVdQEqDHEPlWcQV2bqZHDYwM-vhs-8_y2cwC7ZFY' \
+  -H 'content-length: 214' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell politics be.","maxScore":89,"minScore":18,"description":"Already lead lose college herself meet drive arrive. Million off sure tend election you. College do woman forget.","estimatedTime":"10 weeks"}'

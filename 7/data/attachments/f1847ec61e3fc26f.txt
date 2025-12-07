@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjE3LjQyMjgyOSIsInVzZXJfaWQiOiI2NmQwYzYwNS1kN2U2LTQxNzAtOGNhZS00ZGU5MDVhZTA3ZmUifQ.tj7t_1UKwdToSQy56b5vJDypBW-je0WyLjLgpKDqwK4' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Standard nearly training Mr interview.","maxScore":93,"minScore":11,"description":"Operation degree beautiful. Local cell buy likely. Where class surface into decision.\nFace wonder want short gas receive. First town onto hair source black.","estimatedTime":"4 weeks","previewFileId":"3dc28996-afe1-4698-92bf-6796d79d6ced","createdByUserId":"66d0c605-d7e6-4170-8cae-4de905ae07fe"}'

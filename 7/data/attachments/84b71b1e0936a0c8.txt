@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjE1LjY0MTgzMSIsInVzZXJfaWQiOiI2MTg5YmRlMy00NDljLTRiNDUtYTczOC04ZDY2OWYwNTE5MWUifQ.yR6U0ATpFpbT3VuHAvRZk_8DZs2xJfAbkBd2bpDJOgs' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Entire attention husband.","maxScore":86,"minScore":19,"description":"Chair onto church shake message control. Under investment year require reflect.\nActivity book these not. Focus which idea tough growth wear.","estimatedTime":"7 weeks","previewFileId":"64d42538-f53c-4086-9c7a-1a2fa3dbb8ea","createdByUserId":"6189bde3-449c-4b45-a738-8d669f05191e"}'

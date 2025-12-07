@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjE1LjY0MTgzMSIsInVzZXJfaWQiOiI2MTg5YmRlMy00NDljLTRiNDUtYTczOC04ZDY2OWYwNTE5MWUifQ.yR6U0ATpFpbT3VuHAvRZk_8DZs2xJfAbkBd2bpDJOgs' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly majority issue hundred central.","courseId":"0cf67068-0938-4f0c-b918-be642780e226","maxScore":98,"minScore":19,"orderIndex":9,"description":"Specific PM read. Employee manage onto floor million question want.\nCountry his seek Mrs sometimes you. Turn until high.","estimatedTime":"6 weeks"}'

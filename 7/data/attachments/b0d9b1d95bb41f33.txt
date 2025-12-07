@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA3VDEzOjI5OjE0LjUxNTQ5MCIsInVzZXJfaWQiOiI2ZDBlZDFhNS1iYWFiLTRhNjUtOGVjYi0xZDA2ODNkZWIzMjkifQ.e_HeUWEEw-E7ZZexjGDWXbURu-UetHvKhoEUxWBBcZE' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Those rule natural keep apply.","maxScore":63,"minScore":9,"description":"That rest among. Information close lot hope.\nUnderstand current your recognize particularly. Nor better practice include.","estimatedTime":"7 weeks","previewFileId":"0ec40b80-53b5-4d04-adb1-ad65ea16898e","createdByUserId":"6d0ed1a5-baab-4a65-8ecb-1d0683deb329"}'
