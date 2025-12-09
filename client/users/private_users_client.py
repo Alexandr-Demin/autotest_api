@@ -61,7 +61,7 @@ class PrivateUsersClient(APIClient):
     
 def get_private_users_client(user: AuthenticationUserSchema) -> PrivateUsersClient:
     """
-    Функция создаёт экземпляр PrivateUsersClient с уже настроенным HTTP-клиентом.
+    Функция создаёт экземпляр PrivateUsersClient с уже настроенным HTTP-клиентом
 
     :return: Готовый к использованию PrivateUsersClient.
     """
