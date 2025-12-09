@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE1OjMzLjU3OTE0MCIsInVzZXJfaWQiOiI2YzBkMWRmNi04ZTk3LTRkZjctYTQ2Ni0yZGQ3YWFiZDVhNTgifQ.QzWIg2N30-Gd9ndWtJ52LqPYBC3npTzOCtn3-dxJMm4' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Debate couple as opportunity affect whatever these approach.","maxScore":88,"minScore":26,"description":"Dream happen order American. Share one necessary boy concern family wrong. Value condition give table local whole.","estimatedTime":"7 weeks","previewFileId":"e819701b-bb97-4081-972f-2e5c2eb4b49d","createdByUserId":"6c0d1df6-8e97-4df7-a466-2dd7aabd5a58"}'

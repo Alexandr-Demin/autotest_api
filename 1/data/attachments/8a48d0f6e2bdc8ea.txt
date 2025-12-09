@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE1OjMxLjc2NDc1OCIsInVzZXJfaWQiOiIxMzFkZjE3Mi01YTExLTQ3NGEtYjk3Ni1iYWJkYWE5ZTVlMGIifQ.AC20EUvo2uzFJYHhXFsoFi9jQMzq2ZCtzmDbivqSZjk' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Age concern must prove customer free allow.","maxScore":52,"minScore":24,"description":"Mind mention smile no production father. Husband game phone scene.\nThese author possible west. Still film measure may stock. Simple resource out pressure manager need issue.","estimatedTime":"9 weeks","previewFileId":"c875d47f-a324-417f-9c52-71f2f97096db","createdByUserId":"131df172-5a11-474a-b976-babdaa9e5e0b"}'

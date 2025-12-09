@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE1OjMyLjkyOTA3NCIsInVzZXJfaWQiOiIwNmQ0NTMzZC05MWQ5LTQxYTUtODQyMS1kZjRiMmI5ZjQxNTIifQ.zl7vj_5ejx6_96eTlh0wG8WvVDsxMYt2swW-D08Z8QU' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve strong get sister PM.","maxScore":70,"minScore":28,"description":"Enjoy stuff west college. And mention them word choose. Exactly reason majority despite.","estimatedTime":"7 weeks","previewFileId":"4998b4a5-caba-4344-8c07-43d165506dbb","createdByUserId":"06d4533d-91d9-41a5-8421-df4b2b9f4152"}'

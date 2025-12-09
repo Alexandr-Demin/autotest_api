@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     EXECISES_ASSERTIONS:exercises.py:14 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Step step through majority less.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 78
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 20
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 6
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Open for have itself forward big five throughout.
+Story when student choose lose. Poor shoulder team site wide particular thing.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to 43ddf06d-c453-42bb-b9d6-14f73970f6b7
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema

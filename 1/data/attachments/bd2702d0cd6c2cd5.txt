@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f1b03783-a952-4c54-94e7-6d1adb92bcbc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE1OjI5Ljk1NjM2NiIsInVzZXJfaWQiOiJhMWMwYWVmOC1hZWQ3LTQ4ZDMtYTVmZC1hYTUwYzdiYzJjMDMifQ.yg41Og8xsNlyM2t-aXi6SIE5xRZgUwLqMado4vaEP3Q' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Different floor already old.","maxScore":91,"minScore":14,"description":"Someone food room season.\nPartner several night open glass. Treatment off him analysis.\nService military science administration drop court color identify. Several specific season dark writer.","estimatedTime":"1 weeks"}'

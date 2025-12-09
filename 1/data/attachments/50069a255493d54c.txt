@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE1OjMyLjM0ODg4NSIsInVzZXJfaWQiOiJhMDIxNTYxMi1mYTZiLTQyZTktYjI0MC0wMjFiMDFlZTJiZWYifQ.sBSz5nc89nC1GNcVho09uC8VQyRbBp9T4UlQU1DtTeA' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Task catch particular yard two.","maxScore":82,"minScore":22,"description":"Trip former land interest. From strategy he make.\nAsk west really brother son. Back focus even certain he become also.\nProperty wish management sport. Stock animal great yet.","estimatedTime":"4 weeks","previewFileId":"68c84776-c70a-4a30-8669-75b155655ac4","createdByUserId":"a0215612-fa6b-42e9-b240-021b01ee2bef"}'

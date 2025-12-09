@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE1OjI5Ljk1NjM2NiIsInVzZXJfaWQiOiJhMWMwYWVmOC1hZWQ3LTQ4ZDMtYTVmZC1hYTUwYzdiYzJjMDMifQ.yg41Og8xsNlyM2t-aXi6SIE5xRZgUwLqMado4vaEP3Q' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold happy last authority decision safe.","maxScore":54,"minScore":30,"description":"Late that west again. She senior father drop.\nBar record board however. Collection week especially. Close bad that.","estimatedTime":"10 weeks","previewFileId":"8447f459-25d2-472e-ba73-a86074111912","createdByUserId":"a1c0aef8-aed7-48d3-a5fd-aa50c7bc2c03"}'

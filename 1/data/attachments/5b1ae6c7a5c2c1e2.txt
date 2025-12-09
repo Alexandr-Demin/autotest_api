@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:71 Check create course response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Ground bed information tell gun wish push thousand.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 60
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 25
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Summer hair degree imagine both week. Important might story owner.
+Chair evening school scientist exist speech agreement. Phone six hand effort. Floor spring want pressure particular need.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'preview_file_id' equals to 72486492-bec6-476c-b47b-989d96927ebe
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'created_by_user_id' equals to e3881d8e-5ece-415c-9805-86ffedce89de
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema

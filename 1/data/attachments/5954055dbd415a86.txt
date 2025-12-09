@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/41234b49-563b-4d20-b60a-af87b21eab41
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises/41234b49-563b-4d20-b60a-af87b21eab41
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
+INFO     EXECISES_ASSERTIONS:exercises.py:47 Check get exercise response
+INFO     EXECISES_ASSERTIONS:exercises.py:32 Check exercise
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to 41234b49-563b-4d20-b60a-af87b21eab41
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Decide policy series.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 97
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 8
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 10
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to History next large there analysis like total.
+Sister teacher check leg. Opportunity detail or standard career. Weight tough PM hear land.
+Stock low account most statement matter nice.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to b14f07d7-6b3e-4fb1-9317-b730ee49b5dd

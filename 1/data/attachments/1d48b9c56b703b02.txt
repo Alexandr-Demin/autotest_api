@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE1OjMxLjE3OTk5MSIsInVzZXJfaWQiOiJlMzg4MWQ4ZS01ZWNlLTQxNWMtOTgwNS04NmZmZWRjZTg5ZGUifQ.uTfvwqXjYhaz6oWBzn397K-ar6rYJmbvhtsxSnEve24' \
+  -H 'content-length: 435' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ground bed information tell gun wish push thousand.","maxScore":60,"minScore":25,"description":"Summer hair degree imagine both week. Important might story owner.\nChair evening school scientist exist speech agreement. Phone six hand effort. Floor spring want pressure particular need.","estimatedTime":"7 weeks","previewFileId":"72486492-bec6-476c-b47b-989d96927ebe","createdByUserId":"e3881d8e-5ece-415c-9805-86ffedce89de"}'
