@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE5OjM1LjU5MzYzMCIsInVzZXJfaWQiOiJkMzQyZTUzYy0zNGRhLTQ2NjAtYmNiZS1lYzJhMjcyODMzMzkifQ.nOsP-fU2OcpHozH7GQGYfo9OM5FqqZ__rtaBWB-0MBg' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Usually the represent single economy expect trouble.","maxScore":72,"minScore":8,"description":"Kind training however. Never figure ability.\nForce inside pass between deal. Recently strong parent food mouth girl brother.","estimatedTime":"2 weeks","previewFileId":"4e8a2398-6847-4da8-833d-d3e873e01ce6","createdByUserId":"d342e53c-34da-4660-bcbe-ec2a27283339"}'

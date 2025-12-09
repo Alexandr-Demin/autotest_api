@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE5OjM3LjQxOTYyMiIsInVzZXJfaWQiOiI1NTBmM2I0NC1lNzlmLTRmNjEtYTViOC1mZjc4NjI1ZjkwYjYifQ.71_vL6FL6iG8rkAyYq0aK4WNmwMMMR-RgqAPLY15Q2o' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Direction world site half art.","maxScore":66,"minScore":18,"description":"Debate including owner it each. Family water one issue company yourself same.\nNature success name light. North camera hot public.","estimatedTime":"2 weeks","previewFileId":"e64fa5e1-0c6c-43ce-801a-3f9e2e4a129d","createdByUserId":"550f3b44-e79f-4f61-a5b8-ff78625f90b6"}'

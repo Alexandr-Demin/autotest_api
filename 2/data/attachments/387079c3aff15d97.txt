@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE5OjM5LjI0NDgxMiIsInVzZXJfaWQiOiI0ZWZjOGVlYS1mYTU1LTQxZGUtYTYxMS02ZDU1YjY1ODU2ODcifQ.rKfUVhPWMmgQd9B3XlZ7gY8wdA7KFEmeuJslkzeeS4g' \
+  -H 'content-length: 257' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Though wear physical population list color.","courseId":"190fcd57-07dc-43e5-b6ce-363f221fd298","maxScore":56,"minScore":16,"orderIndex":1,"description":"Chair describe series look middle writer. Huge land guy beyond go.","estimatedTime":"4 weeks"}'

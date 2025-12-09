@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE5OjM2LjgzMzA3MCIsInVzZXJfaWQiOiIzMjVkYTEwZS00ZGE5LTRmMWMtODIwNS1hZmQ2NDllYTYyZWEifQ.l7wlUGtl7dparabTJetzHkw_UtgK0zRQHa7Ax_460XA' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Human join nature minute.","maxScore":91,"minScore":24,"description":"Discover level dog. Source above send quality now upon. Ask soldier father energy.\nWestern remain might attack. Perform agree life effect seven. Hear policy assume event every sort suffer.","estimatedTime":"9 weeks","previewFileId":"fce3536d-282f-46ac-afd8-df2611a3a56d","createdByUserId":"325da10e-4da9-4f1c-8205-afd649ea62ea"}'

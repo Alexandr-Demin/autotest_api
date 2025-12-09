@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE5OjM5LjI0NDgxMiIsInVzZXJfaWQiOiI0ZWZjOGVlYS1mYTU1LTQxZGUtYTYxMS02ZDU1YjY1ODU2ODcifQ.rKfUVhPWMmgQd9B3XlZ7gY8wdA7KFEmeuJslkzeeS4g' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spend for west.","maxScore":81,"minScore":9,"description":"Full billion oil especially. Should only miss.\nPlace board choice measure try move hit.\nHear leave anyone network. Something child language even.","estimatedTime":"8 weeks","previewFileId":"b04f7774-4f40-4df1-ad63-b6b75f02b2cc","createdByUserId":"4efc8eea-fa55-41de-a611-6d55b6585687"}'

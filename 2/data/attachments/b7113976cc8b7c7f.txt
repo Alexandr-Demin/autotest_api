@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE5OjM4LjAwOTYxMCIsInVzZXJfaWQiOiI1YmUyMmQ2MC1hM2Y3LTQ3NDQtODIwNy0zZmZlMDgxODU1OTUifQ._9GRUAQWJ2edlJLjoChd2y2BsBuqRdoj0AvYp9Rv9R0' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son well return relate.","maxScore":98,"minScore":17,"description":"Imagine development particularly require so maintain. And however project world down.\nSouth hit arm. Model lawyer speech media each. Parent likely factor board.","estimatedTime":"7 weeks","previewFileId":"453d507a-8271-4598-8a52-d7514109ed6e","createdByUserId":"5be22d60-a3f7-4744-8207-3ffe08185595"}'

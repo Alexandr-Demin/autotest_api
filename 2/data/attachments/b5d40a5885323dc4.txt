@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE5OjM3LjQxOTYyMiIsInVzZXJfaWQiOiI1NTBmM2I0NC1lNzlmLTRmNjEtYTViOC1mZjc4NjI1ZjkwYjYifQ.71_vL6FL6iG8rkAyYq0aK4WNmwMMMR-RgqAPLY15Q2o' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Police mission forget.","courseId":"15155525-6715-4bbd-909a-57c63a7a6771","maxScore":59,"minScore":20,"orderIndex":10,"description":"Machine rise alone exist. Despite memory teacher many choose mean civil. Word name writer picture get arrive fast statement.","estimatedTime":"6 weeks"}'

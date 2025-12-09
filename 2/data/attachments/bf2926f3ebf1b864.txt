@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA5VDE4OjE5OjM5Ljg1Nzg0OSIsInVzZXJfaWQiOiJkOGYzMTNhYy04N2E5LTQxZjctODJjZC04OGViMzA3ODZmMDYifQ.Fz8u8n-MVj2mv3tmMFkvSoJWLYxgdvub8mXYWyL9sCw' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ten rich often can.","maxScore":80,"minScore":25,"description":"Environmental situation player game.\nThis draw character catch. Region whom or team usually piece money. Piece ten president. Hand team feel institution group learn simple.\nGas ahead bed reflect.","estimatedTime":"10 weeks","previewFileId":"0b98808c-f0bb-4d2c-af01-7ff75b86a06c","createdByUserId":"d8f313ac-87a9-41f7-82cd-88eb30786f06"}'

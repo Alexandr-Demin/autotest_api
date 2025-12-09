@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     EXECISES_ASSERTIONS:exercises.py:14 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Police mission forget.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 59
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 20
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 10
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Machine rise alone exist. Despite memory teacher many choose mean civil. Word name writer picture get arrive fast statement.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to 15155525-6715-4bbd-909a-57c63a7a6771
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
