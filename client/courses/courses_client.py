@@ -4,12 +4,14 @@ from client.private_http_builder import AuthenticationUserSchema, get_private_ht
 from client.courses.courses_schema import GetRequestQuerySchema, CreateBodyRequestSchema, UpdateBodyRequestSchema, CourseResponseSchema
 import allure
 from tools.routes import APIRoutes
+from client.api_coverage import tracker
 
 class CoursesClient(APIClient):
     """
     Клиент для работы с /api/v1/courses
     """
     @allure.step("Get courses")
+    @tracker.track_coverage_httpx(APIRoutes.COURSES)
     def get_api_courses(self, query:GetRequestQuerySchema) -> Response:
         """
         Метод получения списка курсов.
@@ -20,6 +22,7 @@ class CoursesClient(APIClient):
         return self.get(APIRoutes.COURSES, params=query.model_dump(by_alias=True))
     
     @allure.step("Get course {course_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.COURSES}/{{course_id}}")
     def get_api_course(self, course_id: str) -> Response:
         """
         Метод получения курса.
@@ -30,6 +33,7 @@ class CoursesClient(APIClient):
         return self.get(f"{APIRoutes.COURSES}/{course_id}")
     
     @allure.step("Create course")
+    @tracker.track_coverage_httpx(APIRoutes.COURSES)
     def create_course_api(self, request: CreateBodyRequestSchema) -> Response:
         """
         Метод создания курса.
@@ -41,6 +45,7 @@ class CoursesClient(APIClient):
         return self.post(APIRoutes.COURSES, json=request.model_dump(by_alias=True))
     
     @allure.step("Update course {course_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.COURSES}/{{course_id}}")
     def update_course_api(self, request: UpdateBodyRequestSchema, course_id: str) -> Response:
         """
         Метод обновления курса.
@@ -52,6 +57,7 @@ class CoursesClient(APIClient):
         return self.patch(f"{APIRoutes.COURSES}/{course_id}", json=request.model_dump(by_alias=True))
     
     @allure.step("Delete course {course_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.COURSES}/{{course_id}}")
     def delete_api_course(self, course_id : str) -> Response:
         """
         Метод удаления курса.
