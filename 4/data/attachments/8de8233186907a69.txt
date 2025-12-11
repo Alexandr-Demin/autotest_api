@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjAzOjUxLjQ3NjQ0MiIsInVzZXJfaWQiOiI1MDFlMDBiYy0yODQyLTRiYTktYWU5Zi0wZmY0NTYzZThhZjYifQ.yNqfOlItlVMrkqQd-SoSqs875vGxvazMycwlMpFL6hw' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Likely condition record husband.","maxScore":62,"minScore":25,"description":"Cell travel line trial. Agreement year myself allow significant carry mouth lay.","estimatedTime":"3 weeks","previewFileId":"c24133aa-8dc2-43aa-8a5d-e62b9a40277c","createdByUserId":"501e00bc-2842-4ba9-ae9f-0ff4563e8af6"}'

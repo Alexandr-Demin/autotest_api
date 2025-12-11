@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjAzOjUzLjg4ODQzNiIsInVzZXJfaWQiOiI5MTIwY2NhZC1mYjk2LTQzOWYtYWUzZS02NTAxMjQwNDAwNTcifQ.3orMtcQ2C-rvbFZLV9gzzhrdXGH4unuPZO4tXik8dA0' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve table investment imagine off myself recent.","maxScore":51,"minScore":25,"description":"Four media see degree door beat. Fight maybe contain walk hospital property.\nReality point good president. Perhaps evening become second lay become. Far little toward range owner.","estimatedTime":"1 weeks","previewFileId":"0fafdb10-3e12-4b45-a34b-aefcba95090b","createdByUserId":"9120ccad-fb96-439f-ae3e-650124040057"}'

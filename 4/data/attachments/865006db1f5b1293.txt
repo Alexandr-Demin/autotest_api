@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjAzOjUzLjMwMDgzMCIsInVzZXJfaWQiOiIyOGE4NGM0Ny05ZGJlLTRlYTItOTAwMy1hYzM5Zjg4MDViYzgifQ.XForG57YIPrx3cmt8x2MKdn1rdOtqATQbb86wEShoMg' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Instead member economy many material first fly.","maxScore":93,"minScore":30,"description":"Hotel evening strong successful give picture direction. Few key scene reflect hospital thousand meet.\nOff particular age mean. Executive prevent brother boy. Method statement name travel majority.","estimatedTime":"10 weeks","previewFileId":"cef2b7c8-41bc-47e1-a20e-0c94e27d6786","createdByUserId":"28a84c47-9dbe-4ea2-9003-ac39f8805bc8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjAzOjUyLjA3MDI5OCIsInVzZXJfaWQiOiIxYWY4NWQ3YS01NThlLTRmMWMtYTYxMS1lYzZlNTA3ZGEzZjUifQ.zY_Yc6tgQHBzYh3fJ4M-RkAZpTg7qOVzKsqwHyn4lgQ' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fear performance future talk fall despite.","maxScore":93,"minScore":8,"description":"Start hundred paper Democrat these some. Who air blood mention data identify Mr speak.\nSecurity might story family treat. Poor decide become trouble might forward.","estimatedTime":"2 weeks","previewFileId":"a31d8cc7-090e-46a3-803d-23626c8419ea","createdByUserId":"1af85d7a-558e-4f1c-a611-ec6e507da3f5"}'

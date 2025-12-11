@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/ec919181-1b82-48b2-a1c0-093146baf7bc
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises/ec919181-1b82-48b2-a1c0-093146baf7bc
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
+INFO     EXECISES_ASSERTIONS:exercises.py:47 Check get exercise response
+INFO     EXECISES_ASSERTIONS:exercises.py:32 Check exercise
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to ec919181-1b82-48b2-a1c0-093146baf7bc
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Page fear nothing late factor term.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 51
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 22
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 6
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Big agree thus too suddenly. Building enough shake to mission. Deep exist seven.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to e4a38173-fa9a-48c2-829f-61391745393b

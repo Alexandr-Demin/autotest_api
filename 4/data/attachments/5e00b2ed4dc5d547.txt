@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjAzOjU0LjQ3MTYzOSIsInVzZXJfaWQiOiJjYjRmZTc0Yy0wYzIwLTQ4ZTItOGU0NC04MmUxNGViMzU2MjkifQ.wBGWHwkfZL-VG8GNXy_NuFVZfYhCyKtUAvH7ojRC6ts' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cell high thus whose fire cost sure knowledge.","maxScore":67,"minScore":6,"description":"Somebody particularly relate again example final wind. Professional begin amount south turn skin husband. Short area action service sing what soldier. Man its nothing suffer respond would.","estimatedTime":"3 weeks","previewFileId":"9719d7b2-e269-43e6-ae8e-51f5671fffe0","createdByUserId":"cb4fe74c-0c20-48e2-8e44-82e14eb35629"}'

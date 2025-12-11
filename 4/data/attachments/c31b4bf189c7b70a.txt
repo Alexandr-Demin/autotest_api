@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjAzOjU1LjczNTYxOCIsInVzZXJfaWQiOiI1MjNkN2FkOC1hY2I3LTRjNTMtODlhZC01NjZlMmJiMTVlZjIifQ.J9NLzHBd1n0jnpWEl9nrzwBmnPpBtwvl9JLjGZ4dL-g' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature child base mention life perform sound.","maxScore":57,"minScore":28,"description":"Heart health country upon large major. Method next low may really vote.\nOffice southern medical member. Check hope keep stop which century law speech.","estimatedTime":"7 weeks","previewFileId":"8778d309-1d66-45c2-9abc-cf91b4a700f0","createdByUserId":"523d7ad8-acb7-4c53-89ad-566e2bb15ef2"}'

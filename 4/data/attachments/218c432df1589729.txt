@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjAzOjU1LjEyMjM4NSIsInVzZXJfaWQiOiJkZWQ4MmUyNi03NmNjLTRmZTctYjk2OC02NTMxZjY3MDRlM2QifQ.LKjhWWZqbrEP3pa7TIHn_jzgcUxaLNyMl-NFZmGTGQU' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"More current maintain represent not popular.","maxScore":51,"minScore":30,"description":"Former power discuss small. Window break writer quickly mention possible size. Change wonder wall her face because.\nEye particular mention trip. Determine in question alone.","estimatedTime":"9 weeks","previewFileId":"4f805a9f-b530-4889-819d-9b9025094197","createdByUserId":"ded82e26-76cc-4fe7-b968-6531f6704e3d"}'

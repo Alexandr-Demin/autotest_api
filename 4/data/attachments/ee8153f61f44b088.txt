@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjAzOjUyLjcxMzMxMCIsInVzZXJfaWQiOiIwZTRlZDZjYi00ZWZjLTRhMmUtOGM0ZC02NTZjMGIwM2UwNjUifQ.o8MDib5KP9SycH6tsHjLapGMSYloau0S0wuNPvHy3T4' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trip campaign instead response hold base way decade.","maxScore":90,"minScore":26,"description":"Social should fire attention center cost data. Actually if remember. Chance another simply hold exist side reason.","estimatedTime":"10 weeks","previewFileId":"229822ca-6cfa-4dce-9c8d-12d97b2ccb76","createdByUserId":"0e4ed6cb-4efc-4a2e-8c4d-656c0b03e065"}'
