@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/39aab1f5-1894-49b5-b372-a05b298ba656' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDA2OjUzOjA5LjQxNDc1OSIsInVzZXJfaWQiOiJlOGM1YmJkMS1hMzNhLTQ4MTAtOGJmOC02YTA5NTgxNDlhZDAifQ.1Nh2rkrnFt38kLq8C0c60BSngWcUmCZdLp66akCW6Ec' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without against instead may.","maxScore":50,"minScore":15,"description":"Audience perform behavior light. Sell above trouble common six assume. Whole local where would hair couple sing together.\nWhether produce author leave available various way.","estimatedTime":"6 weeks"}'

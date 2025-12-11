@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/39aab1f5-1894-49b5-b372-a05b298ba656
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses/39aab1f5-1894-49b5-b372-a05b298ba656
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:16 Check update course response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Without against instead may.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 50
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 15
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Audience perform behavior light. Sell above trouble common six assume. Whole local where would hair couple sing together.
+Whether produce author leave available various way.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 6 weeks
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema

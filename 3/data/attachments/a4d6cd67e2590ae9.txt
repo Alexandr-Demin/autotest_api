@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDA2OjUzOjExLjgxNjUyMSIsInVzZXJfaWQiOiJkMTljMWI2Zi0zMDU4LTRiNDQtYmFlMS1jMmQ0MjU5YjhmNDYifQ.90PnslObVbYltvj9A0PdBgx0D9r1SVzR29oVbFX_BNA' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hospital our explain compare.","maxScore":95,"minScore":29,"description":"Attention mention page half. Challenge well continue. Painting join baby suggest whatever wear star.\nThough manager follow worker keep institution.","estimatedTime":"3 weeks","previewFileId":"4d3a7cd4-fd74-4321-a189-0e445cdd7b24","createdByUserId":"d19c1b6f-3058-4b44-bae1-c2d4259b8f46"}'

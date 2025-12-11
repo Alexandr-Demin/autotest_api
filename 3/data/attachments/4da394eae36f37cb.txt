@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDA2OjUzOjEyLjQwMDk4NSIsInVzZXJfaWQiOiIyOGQxY2QzNi1mYmJiLTRkOWEtYWNiNi1hYTE1OWJmODdkOWEifQ.hdrPsFdqk_yzl6JAt1wzn8Tj95IEZKYd3c64YwpCZ3Q' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure speech citizen even right allow when interest.","courseId":"b9fc854b-4ad2-4892-8811-c32e41e4dcc2","maxScore":65,"minScore":10,"orderIndex":8,"description":"Source property voice raise decision. Political whether shoulder leave economy value.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDA2OjUzOjEwLjAwOTY5NiIsInVzZXJfaWQiOiJjNDA0YTZiMy01YTFlLTQ5OTMtOTVmNy0zODI0Y2Q4ZjUxMjcifQ.AutrxEBAn_4Y7PDDxQMBY4c1XSF5IVyasiDCbqDjZlA' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk beat friend wind reduce.","maxScore":58,"minScore":25,"description":"Everyone gun conference. Tend per Congress check.","estimatedTime":"1 weeks","previewFileId":"efa5e6ef-2936-4cc3-8838-a57c7674ae50","createdByUserId":"c404a6b3-5a1e-4993-95f7-3824cd8f5127"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/49a23022-d05b-4242-b62a-b8591192d5ca
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises/49a23022-d05b-4242-b62a-b8591192d5ca
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
+INFO     EXECISES_ASSERTIONS:exercises.py:47 Check get exercise response
+INFO     EXECISES_ASSERTIONS:exercises.py:32 Check exercise
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to 49a23022-d05b-4242-b62a-b8591192d5ca
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Measure speech citizen even right allow when interest.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 65
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 10
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 8
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Source property voice raise decision. Political whether shoulder leave economy value.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to b9fc854b-4ad2-4892-8811-c32e41e4dcc2

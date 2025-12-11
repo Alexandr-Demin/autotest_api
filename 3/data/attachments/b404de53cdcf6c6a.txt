@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDA2OjUzOjEzLjY1OTgxMiIsInVzZXJfaWQiOiIyOTFkMjcwOS01ZjUwLTQ1MjEtOTc2Zi1mYzg4NzNiNmJkZWMifQ.8gjGAgzGc2bMDyDru8rRZr_2ZlUVw8ocJqujnNT59Mc' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board short car fly fear imagine.","maxScore":66,"minScore":15,"description":"Treatment population why perhaps drive without field. Near effect person eat out.\nNews season that seat. Choice everyone some when.","estimatedTime":"5 weeks","previewFileId":"58ada9c4-e1de-4c51-9612-515bc266a06b","createdByUserId":"291d2709-5f50-4521-976f-fc8873b6bdec"}'

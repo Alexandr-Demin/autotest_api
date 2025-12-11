@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDA2OjUzOjExLjIyOTc4NiIsInVzZXJfaWQiOiJlNWMzNDA2ZS05OTBiLTRkNTctODVmZi05ZTM5ZmY0YWY3YjcifQ.3UcYxXDdTrg3USzJLGQVHh49RlBnV45J10vOf-fTzYM' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dinner continue win including effect determine her remain.","maxScore":76,"minScore":12,"description":"No PM employee rise. Produce month page rate build.\nReality stuff stand with floor identify. On dream only benefit direction few.","estimatedTime":"9 weeks","previewFileId":"cc8971e8-9aa3-425f-9cef-03120214e176","createdByUserId":"e5c3406e-990b-4d57-85ff-9e39ff4af7b7"}'
