@@ -28,7 +28,7 @@ To get started, clone the project repository using Git:
 
 ```bash
 git clone https://github.com/Alexandr-Demin/autotest_api.git
-cd your-repo-name
+cd autotest_api
 ```
 
 ### Create a Virtual Environment
