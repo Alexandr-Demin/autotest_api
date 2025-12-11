@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/438799fa-0957-4fd4-9fe3-9e5ebb0675bb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjUyOjQxLjg2NDY0MCIsInVzZXJfaWQiOiIxMTlmZmUwZC1kOTczLTQxMDMtOGE1Yy01N2UzMjZlY2Q0OTgifQ.wV6UhAaZHxUlH9841oc6Fr0PUCL36pTTsdXjDX65WgI' \
+  -H 'content-length: 211' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Involve must long let involve smile.","maxScore":68,"minScore":30,"description":"Mrs serve indicate game yes sort teacher. Congress billion south action brother contain get.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjUyOjQzLjM2MTg1NSIsInVzZXJfaWQiOiJiZDZiOGQ4MS05MjIzLTQ4NzgtYmY4Mi02MTZlNDg2YzUwYWMifQ.vjAqVSz6zIJRvMSSzcsPfk7Bv-5AKCi7UpOsfeKunpg' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heavy company civil difficult chair house.","maxScore":99,"minScore":23,"description":"When employee behind health federal. Lawyer letter interest these.\nNeed oil out sort woman tend short.\nElse my father hot once not.","estimatedTime":"5 weeks","previewFileId":"025df81e-11ab-4653-b85f-b03cce1e7b10","createdByUserId":"bd6b8d81-9223-4878-bf82-616e486c50ac"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjUyOjQyLjc3NTcxNSIsInVzZXJfaWQiOiJmNTI3YWJlMS01ZWUyLTQ1NTUtOWIzZi00OWZjMTlmM2ZmMmEifQ.dNpBn5HZhYxEY4Hy4aFiP0KfNb15ri8Jf4xJEB0W3ak' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Glass rate fund.","maxScore":64,"minScore":19,"description":"Paper energy available nearly between. Word law open wide pick a. Recent south pretty situation factor blood goal.","estimatedTime":"10 weeks","previewFileId":"4382bc41-73e7-4066-95c4-b19662d4135c","createdByUserId":"f527abe1-5ee2-4555-9b3f-49fc19f3ff2a"}'

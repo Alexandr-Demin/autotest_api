@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjUyOjQ1LjExODcwNCIsInVzZXJfaWQiOiJjMTcyNDU3ZC0wOTZiLTRmZTYtYTZiNC1hZGJiMjgwYjhiNzQifQ.Fn4ZAtD7kScUxSOZsT1jDGUVjwit5am7GLB000_hwIE' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Character theory affect enjoy property most.","maxScore":71,"minScore":20,"description":"Usually consider toward miss work media local. Model whether bed who newspaper.\nGeneration senior relate by. Focus anything her father.","estimatedTime":"3 weeks","previewFileId":"44f0c436-54b7-46df-8338-3f56601fd633","createdByUserId":"c172457d-096b-4fe6-a6b4-adbb280b8b74"}'

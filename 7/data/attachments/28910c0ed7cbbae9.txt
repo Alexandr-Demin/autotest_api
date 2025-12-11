@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjUyOjQ1Ljc4NzY4MiIsInVzZXJfaWQiOiJmMjRkMzIxYS05ODQyLTRmYTItYjk3Mi0wMmJkZmVhMGRkZjMifQ.U9yMp_uCH1y1u3VVsK0keB-4c6ZgCvP0KVhJ9nTAXI8' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Store part newspaper seven tell modern hour skin.","maxScore":78,"minScore":22,"description":"No find from include coach by until. Democrat fund plant indeed.","estimatedTime":"2 weeks","previewFileId":"b32cfee7-9487-46a6-99c6-3d780f705114","createdByUserId":"f24d321a-9842-4fa2-b972-02bdfea0ddf3"}'

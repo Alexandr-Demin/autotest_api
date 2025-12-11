@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjUyOjQ0LjUzNDM1NSIsInVzZXJfaWQiOiI3MmU5Y2QxNy1jZTM4LTQ0NTYtYjdmZC0wNTgxZGRiYzgxMDYifQ.28tEP25glJpuVX-v4cjSSff7Absb9vRlB6NhgcCI-2s' \
+  -H 'content-length: 444' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue college maintain growth stand say hand think.","maxScore":78,"minScore":14,"description":"Him pattern finally clear coach. Be see teacher continue.\nEntire raise two close once. Challenge during maintain play finally author four.\nOf remember happy theory eight onto. Main sure want hard.","estimatedTime":"9 weeks","previewFileId":"6db028c2-8c5d-4c72-8f0f-76057fadd47a","createdByUserId":"72e9cd17-ce38-4456-b7fd-0581ddbc8106"}'

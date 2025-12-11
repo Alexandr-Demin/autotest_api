@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjUyOjQzLjk0NzIwMiIsInVzZXJfaWQiOiJlNDE5MDE4Ni0zNDE0LTRiMmMtYThiZS1kYWIwODU2Y2IwNzMifQ.rr3tK0B7vay3XR9A7YbZ2vt-09cxtWY81-fJs-eHNvQ' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon note ability space.","maxScore":73,"minScore":25,"description":"Appear job face.\nInterview want matter school. Major mission paper rise talk choice edge. Firm stock give tough pretty but.","estimatedTime":"8 weeks","previewFileId":"b7d303a5-f1df-4daa-8207-1a44bba319cb","createdByUserId":"e4190186-3414-4b2c-a8be-dab0856cb073"}'
