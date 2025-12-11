@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ5OjU2LjMxMDcyNyIsInVzZXJfaWQiOiI2ZThlNWM2Yy00MmFmLTQ5ODUtYmI3ZC1jYmU2MDllYjBhYzYifQ.wClFUp9vB7Sjknb4KvYD02P_OQiD5rR9P2oEwvYVBWA' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Far beyond say.","maxScore":89,"minScore":15,"description":"Interest activity service tonight very join. Like amount doctor reduce itself work return.\nFight trade leg try. Wall and growth student guy much.","estimatedTime":"6 weeks","previewFileId":"e5210ab8-178c-4e3b-8718-5be3142a6925","createdByUserId":"6e8e5c6c-42af-4985-bb7d-cbe609eb0ac6"}'

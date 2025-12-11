@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ee8ee169-3f2c-46e2-ae20-a8e0dec2c38c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ5OjU4Ljk3Nzk0MiIsInVzZXJfaWQiOiJlMjk0ZDA3Yi1kZDZkLTRjYWItYmE4ZS05ZmU5OWM5MjlkNjAifQ.W5Ixv8RdGEgnwKZN0F_5z3v-ty2EOytHS2hBFFUxB80' \
+  -H 'content-length: 265' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point hair same assume position article support.","maxScore":63,"minScore":1,"orderIndex":4,"description":"Situation trial appear. Than anyone product because speech.\nChance fly stock before southern. Indeed he his sea factor.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ5OjU5LjU2MTk2NiIsInVzZXJfaWQiOiIxZWQ5ODhhOC00YWUyLTQwNzctOTU1Zi0zNGJiYmRhOGE5YjQifQ.P3HZP6xGdrhimCHvhu8H4O09SvxjfI6B4tu32TzdaIM' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Run Mrs message none PM item town.","maxScore":62,"minScore":15,"description":"Manager discuss center which perhaps. Party campaign off throw dark much.","estimatedTime":"4 weeks","previewFileId":"e3b4d334-a52a-4072-a086-81b7b78ee049","createdByUserId":"1ed988a8-4ae2-4077-955f-34bbbda8a9b4"}'

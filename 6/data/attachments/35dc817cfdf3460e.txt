@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/09750e8c-231b-4cf3-9e93-e76f44e6a7b3
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises/09750e8c-231b-4cf3-9e93-e76f44e6a7b3
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
+INFO     EXECISES_ASSERTIONS:exercises.py:47 Check get exercise response
+INFO     EXECISES_ASSERTIONS:exercises.py:32 Check exercise
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to 09750e8c-231b-4cf3-9e93-e76f44e6a7b3
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Writer add tough maybe prove.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 84
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 25
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 4
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Culture court detail course safe performance economic. Good hold oil particularly set stage life. Attack ready win half.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to c6a8bc17-66b8-4518-9f39-8aefd573f52c

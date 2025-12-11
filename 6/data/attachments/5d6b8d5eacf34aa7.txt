@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ5OjU3LjIxOTQ1MCIsInVzZXJfaWQiOiI5NTQ3NjcyZi05ODEzLTRmMDUtYWYxYS03ZGQ3ZjZjM2UzYmUifQ.D7ygqoCRPLz_Bd81NMdF3zy9t-Wz_O_UOoOPADZWsF4' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Catch after describe teach anyone carry boy.","maxScore":100,"minScore":17,"description":"May garden hospital receive save. Six rather ok look player tax special. Note itself relationship several reach than.\nAdd visit field near area. Window reveal sing join join worry.","estimatedTime":"8 weeks","previewFileId":"633f9107-a710-45dd-b3bc-4b6aa86dc51a","createdByUserId":"9547672f-9813-4f05-af1a-7dd7f6c3e3be"}'

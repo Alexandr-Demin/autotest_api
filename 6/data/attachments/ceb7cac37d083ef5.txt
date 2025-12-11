@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ5OjU3LjgwNTYyMSIsInVzZXJfaWQiOiIxN2Y1NDI5NC0wZGU3LTQwZDEtOWYwZC0yYTUzNmNhZWZjYWMifQ.4tkH8E2xlLFU0LI__pR78UxCuarfX58Q7yS5VV5f9PU' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Author method war from case easy letter.","maxScore":84,"minScore":15,"description":"Season fly you top image military authority. Police agency president put half agent. Property everybody partner government commercial term.","estimatedTime":"7 weeks","previewFileId":"5e2754ca-529c-4582-9d1f-e1c611ac22f1","createdByUserId":"17f54294-0de7-40d1-9f0d-2a536caefcac"}'

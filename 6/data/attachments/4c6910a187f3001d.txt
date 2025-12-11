@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=55186f26-a375-473b-8357-e1be2bffa32e
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises?courseId=55186f26-a375-473b-8357-e1be2bffa32e
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     EXECISES_ASSERTIONS:exercises.py:82 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:58 Check that lenght og "courses" equal to1
+INFO     EXECISES_ASSERTIONS:exercises.py:32 Check exercise
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'id' equals to 610036a9-9c6b-4e54-a1a0-46189d9cf9f5
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Writer listen teach as college thus memory.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 67
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 25
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 9
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Side system experience somebody dark cut station. Defense fight born strong the win it. State marriage man certainly treatment meet.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'course_id' equals to 55186f26-a375-473b-8357-e1be2bffa32e
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
