@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjM0LjE2MDcxMyIsInVzZXJfaWQiOiIzZjg4NGNkYS01OGUzLTQxZTYtYWUyNS0yYWVlMmY2NTUyNjAifQ.uCOxOwsybEgZMqBd-lIh8uSmQw2C3EhvbhVKZoioyv4' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Loss debate project game career.","maxScore":58,"minScore":2,"description":"So leader notice action believe rather husband. Draw financial heart most live. Majority herself inside.","estimatedTime":"3 weeks","previewFileId":"b4cb303b-5d8c-486c-b073-284fdd8df13b","createdByUserId":"3f884cda-58e3-41e6-ae25-2aee2f655260"}'

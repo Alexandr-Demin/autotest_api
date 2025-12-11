@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjMwLjgzMTc2NyIsInVzZXJfaWQiOiIxMTA4ODA5OC01ZjU5LTRlZTEtODllNS0zNDU5MTM5YjY4NWUifQ.y8nafwDMaKeBLqUw2bY76_bNAFtZVBjOom6H3TwMhwo' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Customer let help man.","maxScore":85,"minScore":10,"description":"Difficult new hand time decide kid. Bring fear line each.\nSeat assume serious. Send something live special six analysis.\nMajor thus better even. The imagine professor material apply their thought.","estimatedTime":"8 weeks","previewFileId":"ac912ee2-94c1-4066-a223-f797b6eee31e","createdByUserId":"11088098-5f59-4ee1-89e5-3459139b685e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjMxLjc0OTI1NCIsInVzZXJfaWQiOiI1NmU3NTI5NC0wZTI4LTQ4ODktOGQ1ZC01OWUwOWI1YjNjZjkifQ.OcCtX-ps9rbuQjuo4RUhUcmFlGaWndK7kzWGuhTI-jA' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly official huge mention.","maxScore":71,"minScore":14,"description":"Hope financial position get open. Artist long low success. Long name customer show president head.\nOccur either learn team. Mother discuss western north center.","estimatedTime":"7 weeks","previewFileId":"e8f80c99-8b2f-42f7-9e26-3acb926d0290","createdByUserId":"56e75294-0e28-4889-8d5d-59e09b5b3cf9"}'

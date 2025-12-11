@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjMwLjU1ODI3OCIsInVzZXJfaWQiOiJjNTI5ZGU1ZC1iYjY1LTQwNmUtODU2Yy0wZmU2NDUyMjBjZGYifQ.6OIuQejoZVEFG6fMpQ4tfBVMl2l9tbH86gXpV2l3Eo0' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mouth technology often smile find direction seek.","maxScore":74,"minScore":25,"description":"And report end purpose security dream alone. Huge six open season. Song represent physical space quite job.","estimatedTime":"1 weeks","previewFileId":"8576aa62-b11e-4ee1-891f-e0187c9f107a","createdByUserId":"c529de5d-bb65-406e-856c-0fe645220cdf"}'

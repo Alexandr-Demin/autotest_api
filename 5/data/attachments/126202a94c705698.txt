@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5804da52-9e5d-45d2-a5fb-e1e22793d743' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjI5LjQwNzU4MCIsInVzZXJfaWQiOiI1NDA4ODc2NS05ZmYwLTQ4ZmItYTIyZS0yMTU4MTg4ZTNjNzgifQ.B9A-8fISGYVrgIxl2rRQ6qhONLTAT71EpaTI3Xe2yCw' \
+  -H 'content-length: 249' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue coach recently attack on choose.","maxScore":87,"minScore":14,"description":"State fire real stage enough. Return six laugh game market police sign. Game car style baby. Enter nor according ground security.","estimatedTime":"5 weeks"}'

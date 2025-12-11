@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjMyLjkzMjUyOSIsInVzZXJfaWQiOiI0NmQ4ZWNhZC1jMWY1LTQ0YjEtYmY1OC1lODhhODE4MmQwYmUifQ.MDQA0iSaMTEh5vEY79R-Tyyt6xrH2znKzQK4KZzI9V0' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leader apply condition visit again.","courseId":"5449374d-8ad7-4b8b-8fc1-a00f218aea8c","maxScore":59,"minScore":5,"orderIndex":9,"description":"Until listen policy. Small door discover federal. Experience build task never reason assume shoulder.","estimatedTime":"5 weeks"}'

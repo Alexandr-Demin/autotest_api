@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjI5LjQwNzU4MCIsInVzZXJfaWQiOiI1NDA4ODc2NS05ZmYwLTQ4ZmItYTIyZS0yMTU4MTg4ZTNjNzgifQ.B9A-8fISGYVrgIxl2rRQ6qhONLTAT71EpaTI3Xe2yCw' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light look wear true forget character within.","maxScore":59,"minScore":15,"description":"Occur PM animal often gas.\nNor life they consumer push. Move language clear month treatment. Standard herself fall address word.","estimatedTime":"10 weeks","previewFileId":"6427b0c0-83c5-4dbd-85c0-4babba75f6d5","createdByUserId":"54088765-9ff0-48fb-a22e-2158188e3c78"}'

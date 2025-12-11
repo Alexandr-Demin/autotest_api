@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/f94dbec1-4d8b-49f5-97f6-8aee6334fa1c
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/exercises/f94dbec1-4d8b-49f5-97f6-8aee6334fa1c
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema
+INFO     EXECISES_ASSERTIONS:exercises.py:62 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Would across chair.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 91
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 28
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'order_index' equals to 4
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Behavior expect first service. Choice hard ok store office fall. Return claim decision task stock use.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 8 weeks

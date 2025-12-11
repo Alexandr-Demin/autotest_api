@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK response to http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:9 Check that response status code equals to 200
+INFO     COURSE_ASSERTIONS:course.py:71 Check create course response
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'title' equals to Customer let help man.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'max_score' equals to 85
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'min_score' equals to 10
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'description' equals to Difficult new hand time decide kid. Bring fear line each.
+Seat assume serious. Send something live special six analysis.
+Major thus better even. The imagine professor material apply their thought.
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'estimated_time' equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'preview_file_id' equals to ac912ee2-94c1-4066-a223-f797b6eee31e
+INFO     BASE_ASSERTIONS:base.py:25 Check that 'created_by_user_id' equals to 11088098-5f59-4ee1-89e5-3459139b685e
+INFO     SCHEMA_VALIDATE:schema.py:11 Validate JSON schema

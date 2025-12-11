@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjMyLjAyMjE0NCIsInVzZXJfaWQiOiIwZTg3MTAyMi1jNzI5LTQzZjYtYTA2YS0wMDE2YzBlYmFkYTkifQ.tVeTk0XclmsvQ9_CLPLRjH2ylILazkZ0KRWXT1r8WQo' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"There suddenly resource follow who.","maxScore":91,"minScore":13,"description":"Girl this least hair later fear capital choose. Laugh technology develop instead yes everyone right. Including pattern way four throw scientist so.","estimatedTime":"1 weeks","previewFileId":"f4685139-e8ea-4e0f-8471-35622b3171c6","createdByUserId":"0e871022-c729-43f6-a06a-0016c0ebada9"}'

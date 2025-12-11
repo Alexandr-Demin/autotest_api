@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f94dbec1-4d8b-49f5-97f6-8aee6334fa1c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTExVDEzOjQ4OjMyLjAyMjE0NCIsInVzZXJfaWQiOiIwZTg3MTAyMi1jNzI5LTQzZjYtYTA2YS0wMDE2YzBlYmFkYTkifQ.tVeTk0XclmsvQ9_CLPLRjH2ylILazkZ0KRWXT1r8WQo' \
+  -H 'content-length: 219' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would across chair.","maxScore":91,"minScore":28,"orderIndex":4,"description":"Behavior expect first service. Choice hard ok store office fall. Return claim decision task stock use.","estimatedTime":"8 weeks"}'
